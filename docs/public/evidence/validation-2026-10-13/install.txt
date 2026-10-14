@@ -1,0 +1,129 @@
+$ pnpm install --frozen-lockfile --store-dir node_modules/.validation-store --registry=https://registry.npmjs.org
+
+Scope: all 4 workspace projects
+✓ Lockfile passes supply-chain policies (verified 18d ago)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +487
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are cloned from the content-addressable store to the virtual store.
+  Content-addressable store is at: <snapshot>/node_modules/.validation-store/v11
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 487, reused 0, downloaded 39, added 39
+Progress: resolved 487, reused 0, downloaded 47, added 47
+[WARN] Tarball download average speed 31 KiB/s (size 54 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.7.tgz (GET)
+[WARN] Tarball download average speed 29 KiB/s (size 30 KiB) is below 50 KiB/s: https://registry.npmjs.org/tinybench/-/tinybench-6.1.4.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 56, added 56
+[WARN] Tarball download average speed 15 KiB/s (size 34 KiB) is below 50 KiB/s: https://registry.npmjs.org/ws/-/ws-8.21.3.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 81, added 81
+Progress: resolved 487, reused 0, downloaded 89, added 89
+[WARN] Tarball download average speed 2 KiB/s (size 4 KiB) is below 50 KiB/s: https://registry.npmjs.org/safe-regex2/-/safe-regex2-5.1.1.tgz (GET)
+[WARN] Tarball download average speed 2 KiB/s (size 2 KiB) is below 50 KiB/s: https://registry.npmjs.org/real-require/-/real-require-0.2.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 99, added 99
+[WARN] Tarball download average speed 20 KiB/s (size 100 KiB) is below 50 KiB/s: https://registry.npmjs.org/workbox-build/-/workbox-build-7.4.1.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 103, added 103
+[WARN] Tarball download average speed 0 KiB/s (size 3 KiB) is below 50 KiB/s: https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 106, added 106
+[WARN] Tarball download average speed 2 KiB/s (size 7 KiB) is below 50 KiB/s: https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 113, added 113
+[WARN] Tarball download average speed 8 KiB/s (size 63 KiB) is below 50 KiB/s: https://registry.npmjs.org/find-my-way/-/find-my-way-9.9.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 124, added 124
+[WARN] Tarball download average speed 2 KiB/s (size 11 KiB) is below 50 KiB/s: https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz (GET)
+[WARN] Tarball download average speed 38 KiB/s (size 75 KiB) is below 50 KiB/s: https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz (GET)
+[WARN] Tarball download average speed 5 KiB/s (size 53 KiB) is below 50 KiB/s: https://registry.npmjs.org/vite-plugin-pwa/-/vite-plugin-pwa-1.3.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 137, added 137
+[WARN] Tarball download average speed 24 KiB/s (size 194 KiB) is below 50 KiB/s: https://registry.npmjs.org/rolldown/-/rolldown-1.2.10.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 168, added 168
+[WARN] Tarball download average speed 26 KiB/s (size 133 KiB) is below 50 KiB/s: https://registry.npmjs.org/workbox-window/-/workbox-window-7.4.1.tgz (GET)
+[WARN] Tarball download average speed 11 KiB/s (size 31 KiB) is below 50 KiB/s: https://registry.npmjs.org/expect-type/-/expect-type-1.4.0.tgz (GET)
+[WARN] Tarball download average speed 29 KiB/s (size 351 KiB) is below 50 KiB/s: https://registry.npmjs.org/jsdom/-/jsdom-26.1.0.tgz (GET)
+[WARN] Tarball download average speed 30 KiB/s (size 72 KiB) is below 50 KiB/s: https://registry.npmjs.org/glob/-/glob-11.1.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 185, added 185
+[WARN] Tarball download average speed 2 KiB/s (size 6 KiB) is below 50 KiB/s: https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 193, added 193
+Progress: resolved 487, reused 0, downloaded 207, added 207
+[WARN] Tarball download average speed 39 KiB/s (size 49 KiB) is below 50 KiB/s: https://registry.npmjs.org/json5/-/json5-2.2.3.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 238, added 238
+[WARN] Tarball download average speed 14 KiB/s (size 72 KiB) is below 50 KiB/s: https://registry.npmjs.org/workbox-background-sync/-/workbox-background-sync-7.4.1.tgz (GET)
+[WARN] Tarball download average speed 5 KiB/s (size 28 KiB) is below 50 KiB/s: https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz (GET)
+[WARN] Tarball download average speed 30 KiB/s (size 459 KiB) is below 50 KiB/s: https://registry.npmjs.org/@types/node/-/node-26.6.2.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 281, added 281
+Progress: resolved 487, reused 0, downloaded 282, added 282
+Progress: resolved 487, reused 0, downloaded 293, added 293
+Progress: resolved 487, reused 0, downloaded 299, added 299
+Progress: resolved 487, reused 0, downloaded 302, added 302
+[WARN] Tarball download average speed 24 KiB/s (size 99 KiB) is below 50 KiB/s: https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz (GET)
+[WARN] Tarball download average speed 9 KiB/s (size 30 KiB) is below 50 KiB/s: https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz (GET)
+[WARN] Tarball download average speed 14 KiB/s (size 45 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.29.8.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 311, added 311
+Progress: resolved 487, reused 0, downloaded 317, added 317
+[WARN] Tarball download average speed 10 KiB/s (size 212 KiB) is below 50 KiB/s: https://registry.npmjs.org/ajv/-/ajv-8.20.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 324, added 324
+[WARN] Tarball download average speed 14 KiB/s (size 114 KiB) is below 50 KiB/s: https://registry.npmjs.org/minimatch/-/minimatch-10.2.6.tgz (GET)
+[WARN] Tarball download average speed 16 KiB/s (size 164 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.8.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 343, added 343
+[WARN] Tarball download average speed 7 KiB/s (size 69 KiB) is below 50 KiB/s: https://registry.npmjs.org/core-js-compat/-/core-js-compat-3.50.0.tgz (GET)
+[WARN] Tarball download average speed 13 KiB/s (size 70 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.6.8.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 364, added 364
+[WARN] Tarball download average speed 3 KiB/s (size 84 KiB) is below 50 KiB/s: https://registry.npmjs.org/parse5/-/parse5-7.3.0.tgz (GET)
+[WARN] Tarball download average speed 4 KiB/s (size 41 KiB) is below 50 KiB/s: https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 400, added 400
+Progress: resolved 487, reused 0, downloaded 433, added 433
+Progress: resolved 487, reused 0, downloaded 445, added 445
+Progress: resolved 487, reused 0, downloaded 447, added 447
+[WARN] Tarball download average speed 29 KiB/s (size 108 KiB) is below 50 KiB/s: https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-10.2.2.tgz (GET)
+[WARN] Tarball download average speed 12 KiB/s (size 152 KiB) is below 50 KiB/s: https://registry.npmjs.org/jackspeak/-/jackspeak-4.2.3.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 450, added 450
+Progress: resolved 487, reused 0, downloaded 452, added 452
+[WARN] Tarball download average speed 3 KiB/s (size 19 KiB) is below 50 KiB/s: https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 456, added 456
+[WARN] Tarball download average speed 1 KiB/s (size 27 KiB) is below 50 KiB/s: https://registry.npmjs.org/workbox-recipes/-/workbox-recipes-7.4.1.tgz (GET)
+[WARN] Tarball download average speed 1 KiB/s (size 48 KiB) is below 50 KiB/s: https://registry.npmjs.org/tough-cookie/-/tough-cookie-5.1.2.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 460, added 460
+[WARN] Tarball download average speed 2 KiB/s (size 13 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 463, added 463
+[WARN] Tarball download average speed 23 KiB/s (size 711 KiB) is below 50 KiB/s: https://registry.npmjs.org/tldts/-/tldts-6.1.86.tgz (GET)
+[WARN] Tarball download average speed 2 KiB/s (size 39 KiB) is below 50 KiB/s: https://registry.npmjs.org/jake/-/jake-10.9.4.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 468, added 468
+Progress: resolved 487, reused 0, downloaded 469, added 468
+Progress: resolved 487, reused 0, downloaded 470, added 470
+[WARN] Tarball download average speed 4 KiB/s (size 9 KiB) is below 50 KiB/s: https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 471, added 470
+[WARN] Tarball download average speed 32 KiB/s (size 58 KiB) is below 50 KiB/s: https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.3.2.tgz (GET)
+[WARN] Tarball download average speed 46 KiB/s (size 1600 KiB) is below 50 KiB/s: https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.11.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 473, added 473
+Progress: resolved 487, reused 0, downloaded 474, added 473
+Progress: resolved 487, reused 0, downloaded 475, added 475
+Progress: resolved 487, reused 0, downloaded 476, added 475
+[WARN] Tarball download average speed 8 KiB/s (size 294 KiB) is below 50 KiB/s: https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 477, added 477
+[WARN] Tarball download average speed 1 KiB/s (size 64 KiB) is below 50 KiB/s: https://registry.npmjs.org/fast-uri/-/fast-uri-4.2.1.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 478, added 477
+Progress: resolved 487, reused 0, downloaded 478, added 478
+[WARN] Tarball download average speed 4 KiB/s (size 61 KiB) is below 50 KiB/s: https://registry.npmjs.org/workbox-routing/-/workbox-routing-7.4.1.tgz (GET)
+Progress: resolved 487, reused 0, downloaded 480, added 480
+Progress: resolved 487, reused 0, downloaded 481, added 480
+Progress: resolved 487, reused 0, downloaded 481, added 481
+Progress: resolved 487, reused 0, downloaded 482, added 481
+Progress: resolved 487, reused 0, downloaded 482, added 482
+[WARN] GET https://registry.npmjs.org/fake-indexeddb/-/fake-indexeddb-6.2.5.tgz error (23). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 487, reused 0, downloaded 483, added 482
+Progress: resolved 487, reused 0, downloaded 483, added 483
+[WARN] GET https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz error (23). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 487, reused 0, downloaded 484, added 483
+Progress: resolved 487, reused 0, downloaded 485, added 485
+[WARN] GET https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz error (23). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 487, reused 0, downloaded 486, added 485
+Progress: resolved 487, reused 0, downloaded 486, added 486
+Progress: resolved 487, reused 0, downloaded 487, added 486
+Progress: resolved 487, reused 0, downloaded 487, added 487, done
+.../esbuild@0.25.12/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.28.2/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.18.20/node_modules/esbuild postinstall$ node install.js
+.../esbuild@0.25.12/node_modules/esbuild postinstall: Done
+.../esbuild@0.28.2/node_modules/esbuild postinstall: Done
+.../esbuild@0.18.20/node_modules/esbuild postinstall: Done
+
+Done in 1m 23s using pnpm v11.19.0
+
+Exit status: 0

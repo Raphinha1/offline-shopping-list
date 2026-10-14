@@ -1,0 +1,24 @@
+$ psql -d shopping_validation -v ON_ERROR_STOP=1 -c SELECT count(*) AS applied_migrations FROM drizzle.__drizzle_migrations; SELECT count(*) AS demo_categories FROM categories; SELECT status,count(*) FROM purchases GROUP BY status; SELECT count(*) AS leftover_test_databases FROM pg_database WHERE datname LIKE 'lista_test_%';
+
+ applied_migrations 
+--------------------
+                  5
+(1 fila)
+
+ demo_categories 
+-----------------
+               5
+(1 fila)
+
+  status  | count 
+----------+-------
+ FINISHED |     1
+(1 fila)
+
+ leftover_test_databases 
+-------------------------
+                       0
+(1 fila)
+
+
+Exit status: 0

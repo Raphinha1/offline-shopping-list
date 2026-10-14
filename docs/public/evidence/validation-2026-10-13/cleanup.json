@@ -1,0 +1,16 @@
+{
+  "temporary_ports_closed": [
+    43127,
+    43128,
+    55439
+  ],
+  "removed_generated_directories": [
+    "apps/api/node_modules",
+    "apps/web/node_modules",
+    "packages/shared/node_modules",
+    "apps/api/dist",
+    "apps/web/dist",
+    "node_modules"
+  ],
+  "original_environment_untouched": true
+}

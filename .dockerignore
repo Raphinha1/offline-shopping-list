@@ -1,0 +1,24 @@
+.git
+.env
+.env.*
+!.env.example
+**/node_modules
+**/dist
+**/coverage
+**/*.log
+.vite
+
+# Private documentation and local data are never build inputs
+/docs/private
+/backups
+**/*.dump
+**/*.backup
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.jks
+**/*.keystore

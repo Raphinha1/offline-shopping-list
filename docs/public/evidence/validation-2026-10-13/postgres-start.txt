@@ -1,0 +1,6 @@
+$ <snapshot>/node_modules/.validation-tools/postgres/package/native/bin/pg_ctl -D <snapshot>/node_modules/.validation-tools/pgdata -l <snapshot>/node_modules/.validation-tools/postgres-server.log -o -p 55439 -c listen_addresses=127.0.0.1 -c unix_socket_directories='' -w start
+
+waiting for server to start.... done
+server started
+
+Exit status: 0

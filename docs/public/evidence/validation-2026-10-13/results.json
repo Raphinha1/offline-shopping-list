@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-13",
+  "verdict": "Apto para preparaci\u00f3n de publicaci\u00f3n",
+  "runtime": {
+    "node": "26.9.0",
+    "pnpm": "11.19.0",
+    "postgresql": "17.10",
+    "browser": "Chrome DevTools MCP"
+  },
+  "tests": {
+    "backend": 39,
+    "frontend": 48,
+    "passed": 87,
+    "failed": 0,
+    "skipped": 0,
+    "test_files": 14
+  },
+  "checks": {
+    "install_frozen_lockfile": "passed",
+    "lint": "not configured; not applicable",
+    "typecheck": "passed",
+    "backend_build": "passed",
+    "frontend_build": "passed",
+    "migrations": 5,
+    "seed_categories": 5
+  },
+  "browser": {
+    "offline": {
+      "scenario": "offline reload after buy and price",
+      "url": "/list",
+      "controlled": true,
+      "queued": 2,
+      "orderedSequences": [
+        3,
+        4
+      ],
+      "localPurchase": true,
+      "priceCents": 2550,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontalOverflow": false
+    },
+    "resynchronization": {
+      "scenario": "online resynchronization",
+      "queued": 0,
+      "purchaseIdIsServer": true,
+      "items": [
+        {
+          "name": "Arroz demo",
+          "priceCents": 2550
+        }
+      ],
+      "totalPriceCents": 2550
+    },
+    "finish": {
+      "scenario": "finished purchase",
+      "activePurchase": null,
+      "remainingPending": [
+        "Pasta demo"
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontalOverflow": false
+    },
+    "pwa": {
+      "serviceWorkerState": "activated",
+      "controlled": true,
+      "manifestStatus": 200,
+      "manifestIcons": null,
+      "precacheEntries": [
+        "/index.html",
+        "/assets/workbox-window.prod.es5-Bd17z0YL.js",
+        "/assets/nunito-sans-vietnamese-wght-normal-BhFYcaJr.woff2",
+        "/assets/nunito-sans-latin-wght-normal-BWQ3gi2K.woff2",
+        "/assets/nunito-sans-latin-ext-wght-normal-DMEAsnHD.woff2",
+        "/assets/nunito-sans-cyrillic-wght-normal-B9hoeQUC.woff2",
+        "/assets/nunito-sans-cyrillic-ext-wght-normal-7w74d1lj.woff2",
+        "/assets/index-zhXKnHz7.js",
+        "/assets/index-Biw3512z.css",
+        "/manifest.webmanifest"
+      ],
+      "apiResponsesPrecached": false,
+      "horizontalOverflow": false
+    },
+    "notes": [
+      "Offline transport was proven by failed /health fetch; navigator.onLine stayed true under CDP emulation.",
+      "No physical-device or browser install prompt verification was performed."
+    ]
+  },
+  "original_integrity": {
+    "source_files_unchanged": 110,
+    "git_files_unchanged": 415,
+    "git_status_unchanged": true,
+    "real_env_not_read": true,
+    "services_or_data_not_accessed": true
+  },
+  "cleanup": {
+    "temporary_ports_closed": [
+      43127,
+      43128,
+      55439
+    ],
+    "removed_generated_directories": [
+      "apps/api/node_modules",
+      "apps/web/node_modules",
+      "packages/shared/node_modules",
+      "apps/api/dist",
+      "apps/web/dist",
+      "node_modules"
+    ],
+    "original_environment_untouched": true
+  },
+  "limitations": [
+    "Docker/Compose images not built: local Docker permission unavailable.",
+    "Node.js 22 minimum not tested; Node.js 26.9.0 tested.",
+    "Mobile viewport emulation, not physical handset testing.",
+    "No native home-screen install prompt/icon verification. Manifest intentionally has no custom icons.",
+    "First-party license/ownership and icon rights remain pending; this is not publication authorization."
+  ],
+  "business_code_changes": 0
+}

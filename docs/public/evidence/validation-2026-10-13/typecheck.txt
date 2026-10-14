@@ -1,0 +1,12 @@
+$ pnpm typecheck
+
+$ pnpm --recursive --if-present typecheck
+Scope: 3 of 4 workspace projects
+packages/shared typecheck$ tsc --noEmit -p tsconfig.json
+packages/shared typecheck: Done
+apps/api typecheck$ tsc --noEmit
+apps/web typecheck$ tsc --noEmit
+apps/web typecheck: Done
+apps/api typecheck: Done
+
+Exit status: 0

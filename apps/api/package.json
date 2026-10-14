@@ -1,0 +1,22 @@
+{
+  "name": "@lista/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx src/db/seed.ts",
+    "device:code": "tsx src/domains/device-auth/cli.ts code",
+    "device:list": "tsx src/domains/device-auth/cli.ts list",
+    "device:revoke": "tsx src/domains/device-auth/cli.ts revoke-device",
+    "session:revoke": "tsx src/domains/device-auth/cli.ts revoke-session"
+  },
+  "dependencies": { "@lista/shared": "workspace:*", "dotenv": "^18.0.3", "drizzle-orm": "^0.45.3", "fastify": "^5.12.5", "postgres": "^3.4.9", "zod": "^4.6.5" },
+  "devDependencies": { "@types/node": "^26.6.2", "drizzle-kit": "^0.31.11", "tsx": "^4.20.6", "typescript": "^7.0.2", "vitest": "^5.0.1" }
+}

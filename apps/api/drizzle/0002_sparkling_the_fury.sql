@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX "purchase_items_purchase_product_unique" ON "purchase_items" USING btree ("purchase_id","product_id");--> statement-breakpoint
+CREATE UNIQUE INDEX "purchases_one_active_unique" ON "purchases" USING btree ("status") WHERE "purchases"."status" = 'ACTIVE';

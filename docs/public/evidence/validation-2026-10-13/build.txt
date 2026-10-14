@@ -1,0 +1,32 @@
+$ pnpm build
+
+$ pnpm --recursive --if-present build
+Scope: 3 of 4 workspace projects
+apps/api build$ tsc -p tsconfig.json
+apps/web build$ tsc --noEmit && vite build
+apps/api build: Done
+apps/web build: vite v8.3.1 building client environment for production...
+apps/web build: transforming...
+apps/web build: ✓ 34 modules transformed.
+apps/web build: rendering chunks...
+apps/web build: computing gzip size...
+apps/web build: dist/manifest.webmanifest                                          0.20 kB
+apps/web build: dist/index.html                                                    0.52 kB │ gzip:  0.33 kB
+apps/web build: dist/assets/nunito-sans-vietnamese-wght-normal-BhFYcaJr.woff2     10.30 kB
+apps/web build: dist/assets/nunito-sans-cyrillic-wght-normal-B9hoeQUC.woff2       16.38 kB
+apps/web build: dist/assets/nunito-sans-cyrillic-ext-wght-normal-7w74d1lj.woff2   21.75 kB
+apps/web build: dist/assets/nunito-sans-latin-ext-wght-normal-DMEAsnHD.woff2      27.90 kB
+apps/web build: dist/assets/nunito-sans-latin-wght-normal-BWQ3gi2K.woff2          31.07 kB
+apps/web build: dist/assets/index-Biw3512z.css                                    14.67 kB │ gzip:  4.19 kB
+apps/web build: dist/assets/workbox-window.prod.es5-Bd17z0YL.js                    5.65 kB │ gzip:  2.20 kB
+apps/web build: dist/assets/index-zhXKnHz7.js                                    257.54 kB │ gzip: 78.79 kB
+apps/web build: ✓ built in 283ms
+apps/web build: PWA v1.3.0
+apps/web build: mode      generateSW
+apps/web build: precache  10 entries (376.78 KiB)
+apps/web build: files generated
+apps/web build:   dist/sw.js
+apps/web build:   dist/workbox-9c191d2f.js
+apps/web build: Done
+
+Exit status: 0

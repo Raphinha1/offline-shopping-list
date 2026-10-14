@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.vite/
+
+# Private documentation and local publication reviews
+/docs/private/
+# Local data, backups and private keys (schema migrations remain tracked)
+/backups/
+*.dump
+*.backup
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore

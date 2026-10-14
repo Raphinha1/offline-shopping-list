@@ -1,0 +1,6 @@
+$ <snapshot>/node_modules/.validation-tools/postgres/package/native/bin/pg_ctl -D <snapshot>/node_modules/.validation-tools/pgdata -m fast -w stop
+
+waiting for server to shut down.... done
+server stopped
+
+Exit status: 0

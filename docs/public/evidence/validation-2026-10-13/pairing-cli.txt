@@ -1,0 +1,8 @@
+$ pnpm --filter @lista/api device:code
+
+$ tsx src/domains/device-auth/cli.ts code
+◇ injected env (0) from ../../.env
+Código de vinculación: <redacted-demo-code>
+Válido hasta: 2026-10-13T23:13:01.390Z
+
+Exit status: 0

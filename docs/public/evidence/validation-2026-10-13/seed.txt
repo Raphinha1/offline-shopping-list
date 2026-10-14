@@ -1,0 +1,8 @@
+$ pnpm db:seed
+
+$ pnpm --filter @lista/api db:seed
+$ tsx src/db/seed.ts
+◇ injected env (0) from ../../.env
+Categorías iniciales listas.
+
+Exit status: 0

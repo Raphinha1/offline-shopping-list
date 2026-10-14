@@ -1,0 +1,7 @@
+# Fictional local demo only. Replace BOTH password fields with the same
+# locally generated, URL-safe password. Never use production credentials here.
+POSTGRES_USER=shopping_demo
+POSTGRES_PASSWORD=replace_for_local_demo
+POSTGRES_DB=shopping_demo
+POSTGRES_PORT=55432
+DATABASE_URL=postgres://shopping_demo:replace_for_local_demo@127.0.0.1:55432/shopping_demo

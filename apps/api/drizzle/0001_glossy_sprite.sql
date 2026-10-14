@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "products_active_category_name_unique" ON "products" USING btree ("category_id",lower(btrim("name"))) WHERE "products"."active" = true;

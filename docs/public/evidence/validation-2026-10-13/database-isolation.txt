@@ -1,0 +1,1 @@
+Verified dedicated cluster directory, loopback address, port 55439, fictional role shopping_demo. Created shopping_validation in that cluster only.
